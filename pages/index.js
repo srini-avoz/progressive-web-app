@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -11,11 +13,15 @@ export default function Home() {
           
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
-
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
+        <br/>
+        <h1 className={styles.description}>
+          Get started by {' '}
+          <dhruthi className={styles.dhruthi}>
+            <Link href="/greetings/welcome">
+            <a>Click this</a>
+            </Link>
+          </dhruthi>
+        </h1>
 
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
