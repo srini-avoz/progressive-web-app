@@ -13,7 +13,7 @@ export default function MyApp({ Component, pageProps }) {
         />
         <meta name="description" content="Description" />
         <meta name="keywords" content="Keywords" />
-        <title>Dhruthi's Musings</title>
+        <title>Sumanth Musings</title>
 
         <link rel="manifest" href="/manifest.json" />
         <link
@@ -30,6 +30,8 @@ export default function MyApp({ Component, pageProps }) {
         />
         <link rel="apple-touch-icon" href="/apple-icon.png"></link>
         <meta name="theme-color" content="#317EFB" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/snap.svg/0.3.0/snap.svg-min.js"/>
+  
       </Head>
       <Component {...pageProps} />
     </>
